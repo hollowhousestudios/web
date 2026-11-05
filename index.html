@@ -51,6 +51,7 @@
   .p h2 { margin:0; font-family:'Tilt Warp'; font-weight:400; font-size:30px; }
   .p p { margin:0; color:var(--suave); line-height:1.55; flex:1; }
   .p a { font-weight:600; text-decoration:none; border-bottom:2px solid currentColor; align-self:flex-start; }
+  .barra a { text-decoration:none; } .barra a:hover { text-decoration:underline; }
   .barra { padding:22px clamp(24px, 4vw, 56px); display:flex; justify-content:space-between; align-items:center; gap:16px; color:var(--suave); font-size:13px; flex-wrap:wrap; }
   .modo { display:inline-flex; border:1px solid var(--tinta); }
   .modo button { font:600 12px Jost, sans-serif; letter-spacing:1.5px; text-transform:uppercase; padding:8px 12px; border:0; background:transparent; color:var(--tinta); cursor:pointer; }
@@ -60,7 +61,7 @@
 </head>
 <body class="con-logos">
 <header class="barra">
-  <span>© 2026 Hollow House Studios LLC</span>
+  <span>© 2026 Hollow House Studios LLC · <a href="mailto:hello@hollowhousestudios.com">hello@hollowhousestudios.com</a></span>
   <div class="modo" role="group" aria-label="Color mode">
     <button type="button" data-m="light">Light</button>
     <button type="button" data-m="dark">Dark</button>
